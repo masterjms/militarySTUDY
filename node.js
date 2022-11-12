@@ -1,4 +1,4 @@
-#덧셈과 뺄셈
+###덧셈과 뺄셈
 /*두 정수 a와 b를 입력받고 a+b 출력*/
 
 입력값이 있으므로
@@ -52,7 +52,7 @@ let input = require('fs').readFileSync('/dev/stdin').toString().split(' ');
 console.log(Number(input[0]) + Number(input[1]));
 
 
-사칙연산 (몫과 소수점)
+###사칙연산 (몫과 소수점)
 let input = require('fs').readFileSync('dev/stdin').toString().split(' ');
 
 const num1 = Number(input[0]);
@@ -63,4 +63,6 @@ console.log(num1 - num2);
 console.log(num1 * num2);
 console.log(Math.floor(num1 / num2)); //나눗셈에서 소수점이 나오므로 정수만을 출력하기 위함.
 console.log(num1 % num2);
+
+###숫자를 받고 
   
