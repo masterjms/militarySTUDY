@@ -93,6 +93,6 @@ function personinfo(currentItem) {
     const Item = reviews[currentItem];
     img.src = Item.img;
     author.textContent = item.name;
-     job.textContent = item.job;
+    job.textContent = item.job;
     info.textContent = item.text;
 }

@@ -80,13 +80,13 @@ const months = [ //먼저 각각 달에 대한 array 선언.
       return item;
     }
   
-    items.forEach(function (item, index) {
+    items.forEach(function (item, index) { // items라는 곳에서 가져온 배열 하나하나를 함수에 집어넣는다.
       item.innerHTML = format(values[index]);
     });
   
-    if (t < 0) {
-      clearInterval(countdown);
-      deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired!</h4>`;
+    if (t < 0) { //남은 시간이 0보다 적은경우 = d-day가 지난 경우
+      clearInterval(countdown); //이전에 설정된 시간제한 반복 작업을 취소.
+      deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired!</h4>`; // html에 글 바꿈.
     }
   }
   // countdown;
