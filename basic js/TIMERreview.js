@@ -90,7 +90,7 @@ const months = [ //먼저 각각 달에 대한 array 선언.
     }
   }
   // countdown;
-  let countdown = setInterval(getRemaindingTime, 1000);
+  let countdown = setInterval(getRemaindingTime, 1000); // 1초 마다 getRemaindingTime을 가져옴. 이것을 countdown이라고 선언.
   //set initial values
-  getRemaindingTime();
+  getRemaindingTime(); // 남은 시간을 가져온다.
   footer;
