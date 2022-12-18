@@ -1,4 +1,4 @@
-###조건문의 기본
+// 조건문의 기본
 let input = require("fs").readFileSync("/dev/stdin").toString().split(" ");
 
 const a = Number(input[0]);

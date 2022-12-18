@@ -1,3 +1,4 @@
+// fetch 가져오다.
 const data = { username: 'example' };
 
 fetch('https://example.com/profile', {
