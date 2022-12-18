@@ -69,12 +69,12 @@ scrollLinks.forEach((link) => { // 스크롤 링크들 각각 하나의 버튼 �
       position = position + containerHeight; // 포지션보다 링크 컨테이너의 높이만큼 더 이동해서 가야함.
     }
 
-    window.scrollTo({
-      left: 0,
-      top: position,
+    window.scrollTo({  // 문서의 지정된 위치로 스크롤된다.
+      left: 0, // 왼쪽으로는 0픽셀만큼
+      top: position, // 상단으로는 position값 픽셀 만큼
     });
     // close
-    linksContainer.style.height = 0;
+    linksContainer.style.height = 0; // 링크컨테이너가 열려있는 경우 스크롤 되면서 컨테이너의 height를 0으로 해줌으로써 닫는다.
   });
 });
 // calculate heights
