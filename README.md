@@ -1,5 +1,10 @@
 # militarySTUDY
 1. frontEnd<br>
+공통 : TypeScript / ESLint, Prettier / Jest / Yarn Berry / Webpack / GitHub Enterprise<br>
+프런트엔드 : React / Redux<br>
+백엔드 : NodeJS / Express / MongoDB / Nginx / Redis<br>
+DevOps : Jenkins / Kubernetes, Docker<br>
+기타 : Slack / Jira / Confluence / Figma<br>
 기술적인 측면 : javascript ES6, TypeScript - type,interface,generic, Vue, compositionAPI,pinia, React-nextJS,GIT,NPM,JQuery <br>
 모든 프런트 개발 회사는 <code>typescript</code>를 이용해 개발중이다.<br>
 타입스크립트란? : 자바스크립트의 슈퍼셋인 오픈소스 프로그래밍 언어. 모든 운영체제와 브라우저에서 사용가능<br>
