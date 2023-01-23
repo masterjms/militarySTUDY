@@ -47,7 +47,6 @@ var app = http.createServer(function(request,response){
       if(queryData.id === undefined){
 
         fs.readdir('./data',function(error, filelist){ //data directory에서 파일가져오기. 이때 배열로 값이 나온다. expect: ['css','html','javascript']
-            console.log(filelist);
             var title = 'Welcome';
             var description = 'Hello, Node.js';
 
