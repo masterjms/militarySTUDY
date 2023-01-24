@@ -1,4 +1,5 @@
 # militarySTUDY
+토큰 토큰 ghp_sOuTaMiDCEDYpLTRg2yDpORQWJeN7L0(123)vqX5f
 1. frontEnd<br>
 공통 : TypeScript / ESLint, Prettier / Jest / Yarn Berry / Webpack / GitHub Enterprise<br>
 프런트엔드 : React / Redux<br>
